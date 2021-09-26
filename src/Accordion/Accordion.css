@@ -1,0 +1,129 @@
+/* font-family: 'Koh Santepheap', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+  
+body {
+    width: 100%;
+    height: 100vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #2bc0e4, #eaecc6);
+}
+  
+.main-div {
+    position: absolute;
+    top: 50px;
+    left: 375px;
+    width: 40vw;    
+    padding: 50px;
+    background: linear-gradient(to top, #ffeeee, #ddefbb);
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    margin-bottom: 50px ;
+}
+  
+h1 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    font-size: 35px;
+    background: transparent;
+    letter-spacing: 5;
+    word-spacing: 5px;
+    padding: 5px 0 2px 0;
+    margin-bottom: 50px;
+    color: #243b55;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+  
+h3{
+    font-family: 'Roboto', sans-serif ;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.main-heading {
+    display: flex;
+    margin-top: 30px;
+    padding: 20px 0 20px 20px;
+    background: #f1f4ff;
+    border-radius: 5px;
+    background: linear-gradient(to left, #ece9e6, #ffffff);
+    
+}
+
+.main-heading p {
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1);
+    background: linear-gradient(to right, #141e30, #243b55);
+    padding: 5px;
+    
+}
+
+.answers {
+    padding: 20px 20px 15px 20px;
+    font-family: 'Koh Santepheap', cursive;
+    font-size: 15px;
+    word-spacing: 2px;
+    font-weight: 400;
+    line-height: 1.7;
+    background: linear-gradient(to bottom, #e0eafc, #cfdef3);
+    color: black;
+}
+
+@media (max-width:768px) {
+    body {
+        width: 100%;
+         height: 100vh;
+        background: linear-gradient(to bottom, #2bc0e4, #eaecc6);
+    }
+
+      
+    .main-div {
+        position: absolute;
+        top: 40px;
+        left: 20px;
+        width: 90vw;
+        padding: 15px;
+        background: linear-gradient(to top, #ffeeee, #ddefbb);
+        border-radius: 10px;
+        box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+        rgba(17, 17, 26, 0.1) 0px 0px 8px;
+        margin-bottom: 50px ;
+    }
+  
+    h3{
+        padding-top:6px ;
+        margin-left: 13px;
+        font-size: 15px;
+    } 
+     
+    h1 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .answers {
+        font-size: 13px;
+        font-weight: 400;
+        background: linear-gradient(to bottom, #e0eafc, #cfdef3);  
+        color: black;
+    }
+
+    .main-heading p {
+        padding: 2px;
+        
+    }
+  }
